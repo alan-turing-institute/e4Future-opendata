@@ -1,4 +1,4 @@
-# Data Exploration of the EV data from the Electric Nation project
+# Processing the EV data from the Electric Nation project
 
 This folder contains a Jupyter notebook which explores the openly accessible data from the WPD Electric Nation project.
 
