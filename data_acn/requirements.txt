@@ -1,0 +1,5 @@
+pandas
+flat-table
+jupyterlab
+matplotlib
+seaborn
