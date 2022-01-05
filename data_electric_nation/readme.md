@@ -15,7 +15,7 @@ For CrowdCharge, there are two notebooks:
 For Greenflux, there are also two notebooks:
 
 - `EV_GreenFlux_separate_data_by_charger.ipynb` separates the data in the file _GreenFlux3Minute.csv_ into a separate file for each charger type.
-- `create_greenflux_profiles.ipynb` esamples the charging current timeseries and converts it into power (kW). 
+- `create_greenflux_profiles.ipynb` resamples the charging current timeseries and converts it into power (kW). 
 - 
 ## Running the notebooks
 
