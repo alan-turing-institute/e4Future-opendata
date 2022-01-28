@@ -13,7 +13,7 @@ This folder contains a Jupyter notebook which explores the openly accessible dat
 The packages required to run the notebooks within this folder are listed in `requirements.txt`.
 We recommend installing these packages into a virtual environment.
 
-- To install the packages for the notebook, run `pip install -r requirements.txt`
+- To install the packages for the notebook, run `pip install -r requirements.txt`. Maybe you need to run `pip install --upgrade pip` first if there is any issues.
 - The notebooks use the [Python library](https://github.com/openclimatefix/pvoutput) to interact with the PVOutput API. The notebook assumes 
 that the files and folders of the Python library are located in the folder `pvoutput`. You need to create this folder. Note that this directory was added to `.gitignore`. 
 - From the directory `pvoutput`, run `pip install -e git+https://github.com/openclimatefix/pvoutput#egg=pvoutput` (as described in the `README.md` of the client repo) to install the Python library.
