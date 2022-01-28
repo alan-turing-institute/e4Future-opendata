@@ -15,7 +15,7 @@ We recommend installing these packages into a virtual environment.
 
 - To install the packages for the notebook, run `pip install -r requirements.txt`
 - The notebooks use the [Python library](https://github.com/openclimatefix/pvoutput) to interact with the PVOutput API. The notebook assumes 
-that the files and folders of the Python library are located in the folder `pvoutput`. Note that this directory was added to `.gitignore`. 
+that the files and folders of the Python library are located in the folder `pvoutput`. You need to create this folder. Note that this directory was added to `.gitignore`. 
 - From the directory `pvoutput`, run `pip install -e git+https://github.com/openclimatefix/pvoutput#egg=pvoutput` (as described in the `README.md` of the client repo) to install the Python library.
 - After that, change to `data_pvoutput` and running `jupyter notebook` will open up the notebook interface in your web browser.
 - The API client needs an API key and a system ID to access the data. To obtain a key, [register on the webpage](pvoutput.org). After login, navigate to `Settings` and then `API Settings`. Enable API access and click the `New key` button. To obtain the system ID, go to `Registered Systems` and click `Add System`.  Enter a name for the system, tick the `Energy consumption only` box and `Save`. The added system should now show up under `Registered Systems` where you can also find the assigned system ID. 
