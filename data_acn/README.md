@@ -9,16 +9,15 @@ The [Adaptive Charging Network dataset](https://ev.caltech.edu/dataset) is used 
 
 ## Running the notebooks
 
-The packages required to run the notebooks within this folder are listed in `requirements.txt`.
+- The packages required to run the notebooks within this folder are listed in `requirements.txt`.
 We recommend installing these packages into a virtual environment.
 
-To install the packages for the notebook, run `pip install -r requirements.txt`
+- To install the packages for the notebook, activate your virtual environment and run `pip install -r requirements.txt`. If there is any issues, try runnin `pip install --upgrade pip` before installing the requirements. 
 
-The notebooks use the [API client](https://github.com/zach401/acnportal). The notebooks assume 
-that the required parts of the API client repository (the folder `acnportal`) are copied into the folder `acn_client`. Note that this directory was added to `.gitignore`. From the directory `acn_client`, run `pip install .` (as described in the README.md of the client repo) to install the required modules for the API client. 
-
-After that, running `jupyter notebook` will open up the notebook interface in your web browser.
-The API client also needs an API token to access the data. To obtain a token, [register on the webpage](https://ev.caltech.edu/dataset). The token should be stored in the file `acn_api_token.txt`, which should be added to the `secrets` folder.
-
-(Note that the list in `requirements.txt` does not include the `notebook` package in case you already have it set up.
-If you need to install it here, run `pip install notebook`.)
+- The notebooks use the [API client](https://github.com/zach401/acnportal). Follow these steps to install it:
+  - `git clone https://github.com/zach401/acnportal`
+  - `pip install .`
+  
+- After that, running `jupyter notebook` will open up the notebook interface in your web browser.
+- The API client also needs an API token to access the data. To obtain a token, [register on the webpage](https://ev.caltech.edu/dataset). The token should be stored in the file `acn_api_token.txt`, which should be added to the `secrets` folder.
+)
