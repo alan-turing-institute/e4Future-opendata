@@ -1,5 +1,5 @@
 pandas
 flat-table
-jupyterlab
+notebook
 matplotlib
 seaborn
