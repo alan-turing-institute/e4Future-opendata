@@ -1,5 +1,7 @@
--e git+https://github.com/openclimatefix/pvoutput#egg=pvoutput
 matplotlib
-jupyterlab
+notebook
 lxml
 seaborn
+pandas
+requests
+tables
