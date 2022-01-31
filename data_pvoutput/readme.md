@@ -7,8 +7,11 @@ This folder contains a Jupyter notebook which explores the openly accessible dat
 
 [PVOutput.org](pvoutput.org) is a free service for sharing and comparing PV output data. 
 
+#### Note: 
 
-## Running the notebooks
+Please note that the notebook resamples the data as found on pvoutput.org. No data cleaning steps are taken and the data might contain incorrect data points. In the notebook example, the system with ID 6241 seems to have erranous values at night. 
+
+## Running the notebook
 
 The packages required to run the notebooks within this folder are listed in `requirements.txt`.
 We recommend installing these packages into a virtual environment.
